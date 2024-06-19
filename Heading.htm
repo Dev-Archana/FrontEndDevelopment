@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h3:hover::after {
+            content: attr(title);
+            background-color: #333;
+            color: white;
+            padding: 0.5em;
+            border-radius: 0.5em;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,9 +38,49 @@
     <hr>
 
     <!-- HTML Comment Line -->
-     <!-- Short Cut for comment line : ctrl+/ or alt+shift+A  -->
+    <!-- Short Cut for comment line : ctrl+/ or alt+shift+A  -->
 
-     
+    <!-- HTML attribute: used to give more information about the element 
+     Basically we have some attributes 
+     1) src: source file path that may be image_path , video_path etc
+     2) alt : if the image or any other path that we given in src is not working if you want print some text alternative to that then we use alt tag
+     3) width : adjust height 
+     4)height: adjust height
+     5) id : used to uniquely identify the element for css and js to style as well as to mapipulate
+     6)title : used to give some title it will show when ever we hovered on that element in output
+      
+     -->
+    <h3 title="my new title">Hey Archana How Are You</h3>
+
+    <!-- href: after click navigarte to refered page 
+     target:_blank : used to open the content in new tab  -->
+    <a href="Heading.htm" target="_blank"> click_me</a>
+
+    <!-- style attribute  : used to add some inline css -->
+    <h1 style="color: palevioletred;">i am styling here </h1>
+
+    <!-- Align Attribute: left , right , center -->
+    <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur ipsam optio. Enim, vel.
+        Ab mollitia dolorem, ea magni, laboriosam eaque eveniet fugiat ad quae quidem rerum animi. Officiis,
+        reprehenderit.</p>
+    <!-- pre tag: used to display the formatte content that means how you typed on the text editor with same style we will get the output -->
+    <pre>Lorem, ipsum.</pre>
+    <pre>Lorem, ipsum.lorem2</pre>
+
+    <!-- HTML TEXT FORMATTING  -->
+    <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, animi!</em><br />
+    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quibusdam?</i><br />
+    <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, inventore?</b><br />
+    <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, illo.</strong><br />
+    <ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quidem.</ins><br />
+    <u>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, debitis?</u><br />
+    <sub>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptas.</sub><br />
+    <sup>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, exercitationem?</sup><br />
+    <del>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, beatae.</del><br />
+    <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dignissimos?</mark>
+    <br />
+
+    <bdo dir="left-to-right.">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, at!</bdo>
 </body>
 
 </html>
