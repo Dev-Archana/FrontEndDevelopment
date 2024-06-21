@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.png">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- in HTML we use tables to display : 
+    Basically table is used to display the content in the form of rows and columns 
+    row: horizontal line 
+    column : its verticle line 
+    new row : <tr>
+    for table theading : <caption>
+    column heading : <th>
+    table data: <td>
+    -->
+    <center>
+        <!-- even after using center tag the align attribute will override the styling that is done by center tag -->
+        <table border="1" align="right" style="padding: 30px; border-spacing: 30px;text-align: left; ">
+
+            <caption><b>Student_Information</b></caption>
+
+            <tr>
+                <th style="padding: 10px;" colspan="3">USN</th>
+                <!-- after using rowspan or colspan if you wanted to align the text at left or right or center that we can do with the help of text-align styling -->
+                <th style="padding: 10px;">Name</th>
+                <th style="padding: 10px;">phone</th>
+                <th style="padding: 10px;">Email</th>
+            </tr>
+            <tr>
+                <td>4AT072023</td>
+                <td>Srikanth</td>
+                <td>123456789</td>
+                <td>Srikanth@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4AT072023</td>
+                <td>Srikanth</td>
+                <td>123456789</td>
+                <td>Srikanth@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4AT072023</td>
+                <td>Srikanth</td>
+                <td>123456789</td>
+                <td>Srikanth@gmail.com</td>
+            </tr>
+        </table>
+    </center>
+
+
+    <!-- row span and colspan  
+     row_span: basically used to marge rows present in the table 
+     
+    -->
+    <center>
+        <table border="1" align="center" style="border-spacing: 30px;padding: 30px;">
+
+            <caption><b>Student_Information</b></caption>
+
+            <tr>
+                <th style="padding: 10px;">USN</th>
+                <th style="padding: 10px;">Name</th>
+                <th style="padding: 10px;">phone</th>
+                <th style="padding: 10px;">Email</th>
+            </tr>
+            <tr>
+                <td rowspan="3">4AT072023</td>
+                <td>Srikanth</td>
+                <td>123456789</td>
+                <td>Srikanth@gmail.com</td>
+            </tr>
+            <tr>
+                <!-- <td>4AT072023</td> -->
+                <td>Srikanth</td>
+                <td>123456789</td>
+                <td>Srikanth@gmail.com</td>
+            </tr>
+            <tr>
+                <!-- <td>4AT072023</td> -->
+                <td>Srikanth</td>
+                <td>123456789</td>
+                <td>Srikanth@gmail.com</td>
+            </tr>
+        </table>
+    </center>
+    <!-- col_span: used to merge columns present in the table
+    collapse is used to delete the extra line in a table  
+    -->
+    <table border="5" align="left" bordercolor="grey" bgcolor="yellow" style="border-collapse: collapse; ">
+
+        <caption><b>Student_Information</b></caption>
+
+        <tr>
+            <th style="padding: 10px;" colspan="3">USN</th>
+            <th style="padding: 10px;">Name</th>
+            <!-- <th style="padding: 10px;">phone</th> -->
+            <!-- <th style="padding: 10px;">Email</th> -->
+        </tr>
+        <tr>
+            <td>4AT072023</td>
+            <td>Srikanth</td>
+            <td>123456789</td>
+            <td>Srikanth@gmail.com</td>
+        </tr>
+        <tr>
+            <td>4AT072023</td>
+            <td>Srikanth</td>
+            <td>123456789</td>
+            <td>Srikanth@gmail.com</td>
+        </tr>
+        <tr>
+            <td>4AT072023</td>
+            <td>Srikanth</td>
+            <td>123456789</td>
+            <td>Srikanth@gmail.com</td>
+        </tr>
+    </table>
+    <!-- padding :we can use padding as a atribute to give some space inside the cells
+     boarder-space: if you want to give some space between your cell border and outer border then we will use border spacing  
+    -->
+</body>
+
+</html>
