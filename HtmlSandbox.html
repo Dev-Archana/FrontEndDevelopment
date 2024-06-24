@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandbox with Textarea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 300px;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+            /* Allow vertical resizing */
+        }
+
+        .output {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Text Sandbox</h2>
+    <form id="sandboxForm">
+        <label for="textInput"><b>Input Text:</b></label><br>
+        <textarea id="textInput" name="textInput" placeholder="Enter text here..."></textarea><br><br>
+        <button type="button" onclick="processText()">Process Text</button>
+    </form>
+    <div class="output">
+        <h3>Output:</h3>
+        <div id="outputText"></div>
+    </div>
+
+    <script>
+        function processText() {
+            // Get the input text from the textarea
+            var inputText = document.getElementById('textInput').value;
+
+            // Example of text processing (you can modify this according to your needs)
+            var processedText = inputText.toUpperCase();
+
+            // Display the processed text in the output area
+            document.getElementById('outputText').textContent = processedText;
+        }
+    </script>
+</body>
+
+</html>
