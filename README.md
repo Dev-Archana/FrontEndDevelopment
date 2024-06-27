@@ -2,3 +2,12 @@
 Front End Development with basic to advance level HTML,CSS,JS,BOOTSTARP , JQUERY , REACT AND SOME USECASES 
 This Repo Containes the codes from basic to advance topics with some activities and tasks.<br/>
 Author - Archana S M 
+
+<h1>Basic To Advance Level Tech Skills</h1>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Java Script</li>
+  <li>Bootstrap</li>
+  <li>React</li>
+</ul>
