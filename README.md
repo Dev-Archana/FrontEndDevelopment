@@ -21,4 +21,11 @@ Author - Archana S M
 <p>HTML5 , heading tags , paragraph tag , Favicons , Lists , tables , forms </p>
 
 <h1>CSS</h1>
-<P></P>
+<ul>
+  <li>Font Properties</li>
+  <li>Text Properties</li>
+  <li>Css Icons</li>
+  <li>CSS Links</li>
+  <li>Borders and It's Different Properties </li>
+  <li>CSS Tables</li>
+</ul>
