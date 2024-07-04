@@ -55,16 +55,16 @@ body {
 }
 
 /* width and height  */
-p {
-    /* height: 300px; */
-    /* height: 400px; */
-    /* border: 7px solid green; */
-    /* max-width: fit-content; */
-    /* max-width: 400px; */
-    /* max-width: 800px; */
-    /* max-height: 700px; */
-    /* here the content will come out of that border because we restricted the height of that paragraph  */
-}
+/* p { */
+/* height: 300px; */
+/* height: 400px; */
+/* border: 7px solid green; */
+/* max-width: fit-content; */
+/* max-width: 400px; */
+/* max-width: 800px; */
+/* max-height: 700px; */
+/* here the content will come out of that border because we restricted the height of that paragraph  */
+/* } */
 
 /* css outline */
 /* outline properties : CSS Outline allows drawing a line outside the border of elements. It is used to set all the properties of the outline in a single declaration.
@@ -84,3 +84,8 @@ p {
     outline-color: green;
     text-align: center;
 }
+
+/* css display properties
+display property in CSS plays a important role in shaping the layout of web pages. You can create flexible and
+ responsive designs by understanding their behaviour and using them effectively. 
+*/
