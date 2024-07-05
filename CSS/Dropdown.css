@@ -1,0 +1,51 @@
+a {
+    color: white;
+    background-color: rgb(129, 78, 126);
+    text-decoration: none;
+}
+
+nav {
+    background: #c6b81b;
+}
+
+nav>ul {
+    margin: 0 auto;
+    width: 80px;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    margin-left: -40px;
+    position: relative;
+}
+
+nav ul a {
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 10px 20px;
+}
+
+nav ul a:hover {
+    background: #090;
+}
+
+nav ul li ul li {
+    float: none;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #333;
+    top: 42px;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+}
