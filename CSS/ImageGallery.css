@@ -1,0 +1,15 @@
+img {
+    width: 45%;
+    height: 50vh;
+}
+
+img:hover {
+    border-radius: 50%;
+    border: 10px solid green;
+    width: 40%;
+}
+
+* {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.616)), url('./Assets/Animal.png');
+    /* background-color: cornflowerblue; */
+}
