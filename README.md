@@ -29,3 +29,20 @@ Author - Archana S M
   <li>Borders and It's Different Properties </li>
   <li>CSS Tables</li>
 </ul>
+
+<h2>JavaScript Tutorial</h2>
+
+<p>Welcome to our comprehensive JavaScript tutorial, where you'll delve into everything from the basics to advanced topics and concepts. Whether you're just starting or looking to deepen your knowledge, this guide covers essential areas such as:</p>
+
+<ul>
+  <li>Operators and expressions</li>
+  <li>Control flow and conditional statements</li>
+  <li>Functions and their uses</li>
+  <li>Objects and object-oriented programming (OOP)</li>
+  <li>Asynchronous JavaScript and promises</li>
+  <li>Event handling and DOM manipulation</li>
+  <li>Closures and their practical applications</li>
+  <li>Event loops and how they impact JavaScript execution</li>
+</ul>
+
+<p>By the end of this tutorial, you'll have a solid understanding of JavaScript fundamentals and be equipped to tackle more complex challenges in web development and beyond.</p>
