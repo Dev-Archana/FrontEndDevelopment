@@ -50,3 +50,15 @@ ul li::marker {
     color: rgb(43, 0, 255);
     font-size: 30px;
 }
+
+p::selection {
+    color: red;
+    background-color: green;
+    font-size: 30px;
+}
+
+::selection {
+    color: green;
+    background-color: red;
+    font-size: 30px;
+}
