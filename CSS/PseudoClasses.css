@@ -1,0 +1,64 @@
+/* Pseudo Classes */
+/* p:hover {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 20px;
+} */
+
+#a1:visited {
+    color: rgb(248, 8, 228);
+    border: 2px dotted blue;
+}
+
+#a2:active {
+    font-size: 200px;
+}
+
+input:focus {
+    background-color: darkred;
+    color: wheat;
+}
+
+/* Pseudo Element */
+p::first-line {
+    color: rgb(248, 8, 228);
+    border: 2px dotted blue;
+}
+
+p::first-letter {
+    color: blue;
+}
+
+p::before {
+    content: '"';
+    color: red;
+}
+
+p::after {
+    content: '"';
+    color: red;
+}
+
+ul {
+    width: 40px;
+}
+
+ul li::marker {
+    color: rgb(43, 0, 255);
+    font-size: 30px;
+}
+
+p::selection {
+    color: red;
+    background-color: green;
+    font-size: 30px;
+}
+
+::selection {
+    color: green;
+    background-color: red;
+    font-size: 30px;
+}
