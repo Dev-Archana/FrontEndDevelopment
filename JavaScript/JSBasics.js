@@ -66,3 +66,4 @@ we can use $ , $$ or n number of $ as a variable name
 */
 
 /* let keyword : ES6 :2015 */
+/* let and const are block scoped variables */
