@@ -55,3 +55,14 @@ let m1 = 3;//here we can reinitialize the value but redeclaration is not possibl
 var m2 = 7;//we can redeclare and reinitialize these values 
 const m3 = 9;//here we can't redeclare as well as re initialize the data 
 
+//we can use var and let inside a function but we can't use const inside a function
+//we can use const outside a function but we can't use var and let outside a function
+
+/* we can give keyword as a variable name 
+it can start with alphabets but not numerical values 
+successive values may be the numeric
+special characters are not allowed other than $ and _ 
+we can use $ , $$ or n number of $ as a variable name
+*/
+
+/* let keyword : ES6 :2015 */
