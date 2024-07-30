@@ -65,6 +65,9 @@ console.log("Subtraction:", a - b); // Output: -10
 console.log("Multiplication:", a * b); // Output: 200
 console.log("Division:", a / b); // Output: 0.5
 console.log("Modulus:", a % b); // Output: 10
+console.log("exponential", a ** b);
+console.log("increment", a++);
+console.log("increment", a--);
 
 // Assignment Operators
 
@@ -79,6 +82,12 @@ a *= b; // Output: 600
 a /= b; // Output: 3
 
 a %= b; // Output: 10
+console.log(a **= b);
+console.log(a <<= b);
+console.log(a >>= b);
+console.log(a &= b);
+console.log(a |= b);
+console.log(a ^= b);
 
 // Comparison Operators
 
@@ -87,6 +96,7 @@ console.log("a != b:", a != b); // Output: true
 console.log("a > b:", a > b); // Output: false
 console.log("a < b:", a < b); // Output: true
 console.log("a >= b:", a >= b); // Output: false
+console.log("a === b:", a === b); // Output: false
 
 console.log("a <= b:", a <= b); // Output: true
 
@@ -115,3 +125,17 @@ console.log("Right Shift (>>):", a >> 1); // Output: 5
 
 let result = a > b ? "a is greater than b" : "a is less than b";
 console.log(result); // Output: a is less than b
+
+//delete operation
+let emp = {
+    firstName: "Raj",
+    lastName: "Kumar",
+    salary: 40000
+}
+
+console.log(delete emp.salary);
+console.log(emp);
+
+
+/* Operator precedance in javascript */
+/* ()  .  []  new  function_call()  ++  --  !  typeof  **  *  /  %  +  -  <<  >>  >>>  <  <=   */
